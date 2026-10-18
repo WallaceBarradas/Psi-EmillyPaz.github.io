@@ -641,3 +641,49 @@ details p {
     text-align: center;
   }
 }
+
+/* ESPAÇAMENTO — SEÇÃO "COMO POSSO TE AJUDAR?" */
+
+.about .section-heading {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.about .section-heading h2 {
+    margin-bottom: 30px;
+}
+
+.about .section-heading p {
+    max-width: 760px;
+    margin: 0 auto 35px;
+    line-height: 1.9;
+    font-size: 1.02rem;
+    color: var(--muted);
+}
+
+.about .section-heading .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 15px 30px;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 600px) {
+    .about .section-heading h2 {
+        margin-bottom: 22px;
+    }
+
+    .about .section-heading p {
+        margin-bottom: 28px;
+        line-height: 1.8;
+        font-size: 0.98rem;
+        text-align: left;
+    }
+
+    .about .section-heading .btn {
+        margin-top: 0;
+        padding: 14px 24px;
+    }
+}
