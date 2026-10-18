@@ -1,8 +1,4 @@
-// ============================================================
-// CONFIGURAÇÃO DO SITE
-// ============================================================
-
-// Coloque aqui o número do WhatsApp da psicóloga.
+// Coloque aqui o número do WhatsApp.
 // Formato internacional, sem +, espaços, parênteses ou traços.
 // Exemplo para Brasil: 5547999999999
 const whatsappNumber = "5594999535642";
