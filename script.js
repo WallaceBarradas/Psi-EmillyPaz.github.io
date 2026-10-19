@@ -1,6 +1,3 @@
-// Coloque aqui o número do WhatsApp.
-// Formato internacional, sem +, espaços, parênteses ou traços.
-// Exemplo para Brasil: 5547999999999
 const whatsappNumber = "5594999535642";
 
 const whatsappMessage =
@@ -22,10 +19,6 @@ if (year) {
   year.textContent = new Date().getFullYear();
 }
 
-// ============================================================
-// MENU MOBILE
-// ============================================================
-
 const menuToggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".menu");
 
@@ -36,7 +29,6 @@ if (menuToggle && menu) {
     menuToggle.setAttribute("aria-expanded", String(isOpen));
   });
 
-  // Fecha o menu quando o usuário clica em um link
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       menu.classList.remove("active");

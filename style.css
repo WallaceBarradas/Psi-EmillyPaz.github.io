@@ -1,11 +1,3 @@
-/* =========================================================
-   PALETA
-   Rose  #bd7880
-   Pine  #102b1f
-   Wine  #4d0011
-   Pink  #ffd9d9
-   ========================================================= */
-
 :root {
   --rose: #bd7880;
   --pine: #102b1f;
@@ -642,8 +634,6 @@ details p {
   }
 }
 
-/* ESPAÇAMENTO — SEÇÃO "COMO POSSO TE AJUDAR?" */
-
 .about .section-heading {
     max-width: 850px;
     margin: 0 auto;
@@ -688,12 +678,6 @@ details p {
     }
 }
 
-
-/* =========================================================
-   AJUSTES FINAIS: FOTO INTEIRA E RESPONSIVIDADE
-   ========================================================= */
-
-/* Foto do topo: mostrar a imagem inteira no desktop */
 .hero-photo {
     width: 400px;
     height: 400px;
@@ -717,7 +701,6 @@ details p {
     object-position: center;
 }
 
-/* Evita que elementos largos criem rolagem horizontal */
 html,
 body {
     width: 100%;
