@@ -860,28 +860,22 @@ iframe {
     }
 }
 
+
 /* Foto um pouco maior e com bordas arredondadas */
 .hero-photo {
     width: 440px;
     height: 440px;
     max-width: 100%;
-    border-radius: 10px !important;
+    border-radius: 32px;
     overflow: hidden;
 }
 
-.hero-photo > div {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 10px !important;
-}
 .hero-photo img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
     object-position: center;
-    border-radius: 10px !important;
+    border-radius: inherit;
 }
 
 /* Tablets */
@@ -902,4 +896,3 @@ iframe {
         border-radius: 28px;
     }
 }
-
